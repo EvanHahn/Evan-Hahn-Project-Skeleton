@@ -3,3 +3,7 @@
 Narrow-window styles
 
 */
+
+html.narrow-window
+
+	// Wide window styles
