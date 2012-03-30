@@ -3,3 +3,8 @@
 General styles
 
 */
+
+::selection, ::-moz-selection
+	background: #900
+	color: #fff;
+	text-shadow: none;
