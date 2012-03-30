@@ -3,3 +3,26 @@
 Stylus templates
 
 */
+
+border-radius()
+	-moz-border-radius arguments
+	-webkit-border-radius arguments
+	border-radius arguments
+
+box-shadow()
+	-moz-box-shadow arguments
+	-webkit-box-shadow arguments
+	box-shadow arguments
+	html.ie8 &, html.ie7 &, html.ie6 &
+		border (arguments[length(arguments) - 2] / 2) solid arguments[length(arguments) - 1]
+
+button-pressed()
+	position relative
+	top 1px
+
+opacity()
+	opacity arguments
+	-khtml-opacity arguments
+	-moz-opacity arguments
+	filter s('alpha(opacity=%s)', arguments * 100)
+	zoom 1
