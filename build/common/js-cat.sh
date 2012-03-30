@@ -12,3 +12,5 @@ cat ../../src/functions.coffee
 	echo ''
 # cat ../../src/others.coffee
 	echo ''
+cat ../../src/ready.coffee
+	echo ''

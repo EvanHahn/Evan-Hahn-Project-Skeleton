@@ -12,3 +12,4 @@
 ../../src/config.coffee ./js.sh
 ../../src/functions.coffee ./js.sh
 # ../../src/others.coffee ./js.sh
+../../src/ready.coffee ./js.sh
