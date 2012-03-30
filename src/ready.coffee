@@ -6,4 +6,6 @@ The document is ready!
 
 $.fn.ready ->
 
-	# Do stuff!
+	# Has the window size has changed?
+	$(window).resize Evan.windowWidth
+	Evan.windowWidth()
