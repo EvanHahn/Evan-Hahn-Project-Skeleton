@@ -1,0 +1,14 @@
+# CSS
+../../stylus/reset.stylus ./css.sh
+../../stylus/variables.stylus ./css.sh
+../../stylus/templates.stylus ./css.sh
+../../stylus/general.stylus ./css.sh
+../../stylus/wide.stylus ./css.sh
+../../stylus/narrow.stylus ./css.sh
+
+# JavaScript
+# ../../src/lib/LIBRARY.js ./js.sh
+../../src/namespace.coffee ./js.sh
+../../src/config.coffee ./js.sh
+../../src/functions.coffee ./js.sh
+# ../../src/others.coffee ./js.sh
